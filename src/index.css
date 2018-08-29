@@ -1,0 +1,166 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #222022 !important;
+  }
+
+/* .active {
+    background-color: aqua;
+} */
+
+li {
+    padding-right: 20px;
+}
+
+.navbar {
+    background-color: #6ead3a !important;
+}
+
+.nav-item > a {
+    display: block;
+}
+  
+a {
+    color: #ceccce !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent; /* Removes border color */
+    float: left; /* Move navbar toggle to left */
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f00; /* Changes regular toggle color */
+}
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #fff; /* Changes toggle color on hover */
+}
+
+.intro-jumbo-light {
+    background-color: #efedef !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    color: #4c4947 !important;
+}
+
+.intro-jumbo-dark {
+    background-color: #4c4947 !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    color: #efedef !important;
+}
+
+.intro-jumbo-bg {
+    background-color: #222022 !important;
+    color: #efedef !important;
+}
+
+.card-light {
+    background-color: #efedef !important;
+    color: #4c4947 !important;
+}
+
+.card-dark {
+    background-color: #4c4947 !important;
+    color: #efedef !important;
+}
+
+.footer-light {
+    background-color: #efedef !important;
+    padding: 20px !important;
+}
+
+.footer-dark {
+    background-color: #222022 !important;
+    color: #efedef !important;
+    padding: 20px !important;
+}
+
+.padding-b1 {
+    padding-bottom: 1em !important;
+}
+
+.padding-t1 {
+    padding-top: 1em !important;
+}
+
+.rounded-circle {
+    width: inherit !important;
+}
+
+.padding-b5 {
+    padding-bottom: 5em !important;
+}
+
+.right-pad-0 {
+    padding-right: 0px !important;
+}
+
+.left-pad-0 {
+    padding-left: 0px !important;
+}
+
+.hover-icon:hover {
+    fill: #6ead3a;
+}
+
+.font-light {
+    color: #efedef !important;
+}
+
+.vertical-timeline-element-date {
+    text-align: center !important;
+    color: #efedef !important;
+}
+
+ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  #root {
+    width: 100%;
+    height: 100%; 
+  }
