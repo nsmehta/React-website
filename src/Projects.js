@@ -24,7 +24,7 @@ class Projects extends Component {
                 title: "Space and Time Efficient Construction of CCDBG",
                 subtitle: "Computational Biology Lab",
                 p:  <p>
-                        <LanguageCppIcon/>
+                        <LanguageCppIcon title="cpp"/>
                     </p>
             },
             {
